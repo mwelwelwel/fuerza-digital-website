@@ -1,6 +1,15 @@
 # Fuerza Digital Systems & Networks Website
 **WebTech 1 Final Project**
 
+## Project Details
+* **Section:** *BSIT-1J
+* **Developer(s):** *   Estorco, Jimwel A.
+                        Gelilio, John Lester B.
+                        Viray, Christian Drevis
+                        Joaquin, Shaira S.
+                        Alivia, John Byron E.
+                        Borromeo, Dhenmark
+
 ## Project Goals
 This project is a modern, responsive, single-page website built for a local IT and networking supplier, Fuerza Digital. The goal is to showcase the company's product categories, provide company information, and allow users to contact the business while adhering to modern UI/UX and accessibility standards.
 
