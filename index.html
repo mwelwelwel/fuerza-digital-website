@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuerza Digital Systems & Networks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-fuerza-dark sticky-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Fuerza Digital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section text-center position-relative" style="background-image: url('hero-bg.jpg'); background-size: cover; background-position: center;">
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div> <div class="container position-relative z-1">
+                <h1 class="display-4 fw-bold text-white">Fuerza Digital Systems & Networks</h1>
+                <p class="lead mt-3 text-white">Premier supplier for top-tier IT accessories and networking gear.</p>
+                <a href="#products" class="btn btn-primary btn-lg mt-3" style="background-color: #0A192F; border: none;">View Our Catalog</a>
+            </div>
+        </section>
+
+        <section id="products" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 fw-bold text-fuerza-dark">Our IT & Network Supplies</h2>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="cabling.jpg" alt="Structured Cabling Accessories" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h4 class="card-title fw-bold text-fuerza-dark">Structured Cabling</h4>
+                                <p class="card-text text-muted">High-quality cables, patch panels, and connectors to build a reliable network backbone.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="av-gear.jpg" alt="Audio & Video Gear" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h4 class="card-title fw-bold text-fuerza-dark">Audio & Video Gear</h4>
+                                <p class="card-text text-muted">Premium A/V cables, adapters, and headsets for seamless communication and media setups.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="network.jpg" alt="Network & Electrical Accessories" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h4 class="card-title fw-bold text-fuerza-dark">Network & Electrical</h4>
+                                <p class="card-text text-muted">Essential electronic supplies, power distribution units, and network accessories to keep your systems running.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4 fw-bold text-fuerza-dark">About Fuerza Digital</h2>
+                
+                <div class="text-center mb-4">
+                    <img src="team.jpg" alt="Fuerza Digital Team and Office" class="img-fluid rounded shadow-sm" style="max-height: 400px; width: 100%; object-fit: cover;">
+                </div>
+
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active fw-bold text-fuerza-dark" id="who-tab" data-bs-toggle="tab" data-bs-target="#who" type="button" role="tab">Who We Are</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold text-fuerza-dark" id="quality-tab" data-bs-toggle="tab" data-bs-target="#quality" type="button" role="tab">Our Quality</button>
+                    </li>
+                </ul>
+                <div class="tab-content text-center mt-4" id="myTabContent">
+                    <div class="tab-pane fade show active" id="who" role="tabpanel">
+                        <p class="lead">We are a trusted local supplier providing fast, reliable IT parts and accessories to businesses and professionals.</p>
+                    </div>
+                    <div class="tab-pane fade" id="quality" role="tabpanel">
+                        <p class="lead">We source only the best industry-standard network accessories and electrical supplies to ensure your infrastructure never fails.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 fw-bold text-fuerza-dark">Contact Us</h1>
+                <div class="row g-5">
+                    
+                    <div class="col-md-7">
+                        <h3 class="mb-4 fw-bold text-fuerza-dark">Send us a message</h3>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold">Name</label>
+                                <input type="text" class="form-control form-control-lg" id="name" placeholder="Your name">
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Email</label>
+                                <input type="email" class="form-control form-control-lg" id="email" placeholder="your.email@example.com">
+                                <div class="invalid-feedback">Please enter a valid email.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold">Message</label>
+                                <textarea class="form-control form-control-lg" id="message" rows="6" placeholder="Tell us how we can help..."></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 mt-2" style="background-color: #0A192F; border: none;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="card h-100 border-0 shadow-sm p-4 bg-light">
+                            <h3 class="mb-5 fw-bold text-fuerza-dark">Visit us</h3>
+                            
+                            <div class="d-flex align-items-start mb-4">
+                                <i class="bi bi-geo-alt fs-2 text-fuerza-dark me-3 mt-1"></i>
+                                <div>
+                                    <strong>Address</strong>
+                                    <p class="mb-0 text-muted">Muntinlupa, Metro Manila<br> Philippines</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-4">
+                                <i class="bi bi-clock fs-2 text-fuerza-dark me-3 mt-1"></i>
+                                <div>
+                                    <strong>Business Hours</strong>
+                                    <p class="mb-0 text-muted">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p class="mb-0 text-muted">Saturday: 10:00 AM - 4:00 PM</p>
+                                    <p class="mb-0 text-muted">Sunday: Closed</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-4">
+                                <i class="bi bi-telephone fs-2 text-fuerza-dark me-3 mt-1"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p class="mb-0 text-muted">(02) 8123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-4">
+                                <i class="bi bi-envelope fs-2 text-fuerza-dark me-3 mt-1"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p class="mb-0 text-muted">info@fuerzadigital.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-fuerza-dark text-fuerza-light text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Fuerza Digital Systems & Networks. All Rights Reserved.</p>
+            <small>Designed for WEBTECH 1 Finals.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            let nameInput = document.getElementById('name');
+            let emailInput = document.getElementById('email');
+            let messageInput = document.getElementById('message');
+            let isValid = true;
+
+            if (nameInput.value.trim() === '') {
+                nameInput.classList.add('is-invalid'); isValid = false;
+            } else {
+                nameInput.classList.remove('is-invalid');
+            }
+
+            if (emailInput.value.trim() === '' || !emailInput.value.includes('@')) {
+                emailInput.classList.add('is-invalid'); isValid = false;
+            } else {
+                emailInput.classList.remove('is-invalid');
+            }
+
+            if (messageInput.value.trim() === '') {
+                messageInput.classList.add('is-invalid'); isValid = false;
+            } else {
+                messageInput.classList.remove('is-invalid');
+            }
+
+            if (isValid) {
+                alert('Thank you! Your message has been sent to Fuerza Digital.');
+                this.reset();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Custom styling to ensure high contrast (WCAG Compliance 4.5:1) */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.bg-fuerza-dark { 
+    background-color: #0A192F; /* Deep Tech Blue */
+} 
+
+.text-fuerza-light { 
+    color: #F8F9FA; 
+}
+
+.hero-section { 
+    padding: 120px 0; 
+    background-color: #f4f6f9; 
+}
+
+.text-fuerza-dark { 
+    color: #0A192F; 
+}
