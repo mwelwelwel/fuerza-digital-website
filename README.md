@@ -3,12 +3,12 @@
 
 ## Project Details
 * **Section:** *BSIT-1J
-* **Developer(s):** *   Estorco, Jimwel A.
-                        Gelilio, John Lester B.
-                        Viray, Christian Drevis
-                        Joaquin, Shaira S.
-                        Alivia, John Byron E.
-                        Borromeo, Dhenmark
+* **Developer(s):** *   Jimwel A. Estorco, 
+                        John Lester B. Gelilio, 
+                        Christian Drevis Viray, 
+                        Shaira S. Joaquin, 
+                        John Byron E. Alivia, 
+                        Dhenmark Borromeo
 
 ## Project Goals
 This project is a modern, responsive, single-page website built for a local IT and networking supplier, Fuerza Digital. The goal is to showcase the company's product categories, provide company information, and allow users to contact the business while adhering to modern UI/UX and accessibility standards.
